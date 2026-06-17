@@ -18,7 +18,7 @@ creates three segments matching the full address space:
 requires IDA SDK (submodule at `third-party/idasdk`).
 
 ```sh
-git submodule update --init --recursive
+git submodule update --init --recursive --depth 1
 cmake -B build -G Ninja
 cmake --build build
 ```
